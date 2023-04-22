@@ -10,7 +10,7 @@ public class practice_searchtext1 {
 		// TODO Auto-generated method stub
 		WebDriver browserobject;
 		
-		System.setProperty("webdriver.driver.chromedriver", "c:\\programfiles\\chromedriver.exe");
+		System.setProperty("webdriver.driver.chromedriver", "c:\\program files\\chromedriver.exe");
 		browserobject = new ChromeDriver();
 		browserobject.get("https://www.google.com/");
 		browserobject.findElement(By.name("q")).sendKeys("Selenium python");

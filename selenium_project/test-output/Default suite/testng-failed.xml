@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestNg_Package.Data_Provider_Class">
+      <class name="TestNg_Package.CheckGoogleSite">
         <methods>
-          <include name="checking" invocation-numbers="0 1 2"/>
+          <include name="checkGoogleSite"/>
         </methods>
-      </class> <!-- TestNg_Package.Data_Provider_Class -->
+      </class> <!-- TestNg_Package.CheckGoogleSite -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
