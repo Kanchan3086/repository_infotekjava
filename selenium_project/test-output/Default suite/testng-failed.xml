@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestNg_Package.CheckGoogleSite">
+      <class name="TestNg_Package.Before_After_Class">
         <methods>
-          <include name="checkGoogleSite"/>
+          <include name="afterTest"/>
+          <include name="performLogin"/>
+          <include name="beforeTest"/>
         </methods>
-      </class> <!-- TestNg_Package.CheckGoogleSite -->
+      </class> <!-- TestNg_Package.Before_After_Class -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

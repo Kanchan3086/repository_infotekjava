@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Fillup_the_inputbox1 {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 
 		WebDriver browserobject;
@@ -20,10 +20,11 @@ public class Fillup_the_inputbox1 {
 		browserobject.findElement(By.name("email")).sendKeys("kanchan@gmail.com ");
 		browserobject.findElement(By.name("website")).sendKeys("www.google.com ");
 		browserobject.findElement(By.name("comment")).sendKeys("I am happy");
+		Thread.sleep(3000);
 		
 		browserobject.findElement(By.name("submit")).click();
 		
-		browserobject.close();
+		//browserobject.close();
 		
 	}
 

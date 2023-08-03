@@ -12,7 +12,7 @@ public class selenium_dropdown_select_practice2 {
 
 		WebDriver browserobject;
 		
-		System.setProperty("webdriver.driver.chromedriver", "c:\\programfiles\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "c:\\program files\\chromedriver.exe");
 		
 		browserobject = new ChromeDriver();
 		
